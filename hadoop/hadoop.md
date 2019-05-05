@@ -184,8 +184,8 @@ export JAVA_HOME=/usr/local/jdk
 # 允许能ssh到本机
 ###################################################################################
 ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa
-cd ~/id_dsa
-cat id_dsa >> authorized_keys
+cd ~/.ssh
+cat id_dsa.pub >> authorized_keys
 ssh localhost # Hadoop伪分布式必须要求本机能ssh自己本机,而且为了方便,最好不用密码认证
 exit
 
