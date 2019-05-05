@@ -39,8 +39,8 @@ sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
 ###################################################################################
 # 安装JDK
 ###################################################################################
-mkdir /tools
-cd /tools
+mkdir ~/tools
+cd ~/tools
 
 # wget拿不到,所以只能去官网下载
 #wget http://download.oracle.com/otn-pub/java/jdk/8u181-b13/96a7b8442fe848ef90c96a2fad6ed6d1/jdk-8u181-linux-x64.tar.gz
@@ -94,7 +94,6 @@ hadoop version #出现下面内容就说明Hadoop安装成功了
 # From source with checksum f76ac55e5b5ff0382a9f7df36a3ca5a0
 # This command was run using /usr/local/hadoop-3.1.1/share/hadoop/common/hadoop-common-3.1.1.jar
 #---------------------------------------------------------------------------------------
-
 ```
 
 
