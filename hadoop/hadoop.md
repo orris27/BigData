@@ -745,7 +745,7 @@ java Test
 ### 5-2. 温度
 > [数据来源](ftp://ftp.ncdc.noaa.gov/pub/data/noaa/1901/)
 #### 5-2-1. 网上找到的版本(执行成功)
-[使用文档](https://github.com/orris27/orris/blob/master/bigdata/hadoop/codes/MaxTemperature/readme.md)
+[使用文档](https://github.com/orris27/BigData/blob/master/hadoop/codes/MaxTemperature/readme.md)
 
 #### 5-2-2. 老师的版本(执行是执行了,但是outofrange)
 1. 编写Map类
@@ -980,7 +980,7 @@ find . -name 'yarn-default.xml'
 2. 自身是ReduceTaskImpl类,继承自TaskImpl类
 
 ### 8-8. Service
-1. 继承关系:[图形](https://github.com/orris27/orris/blob/master/bigdata/hadoop/images/MapReduce-Service.png)
+1. 继承关系:![image](https://github.com/orris27/BigData/raw/master/hadoop/images/MapReduce-Service.png)
 2. Service<=AbstractService<=CompositeService<=ResourceManager+NodeManager+MRAppMaster
     1. MRMaster为守护进程模式,因为其他节点要返回心跳数据
 3. 服务,为守护进程模式
